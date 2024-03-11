@@ -12,7 +12,7 @@ class MyRoundedContainerWithIcon extends StatelessWidget {
         width: 50,
         height: 50,
         decoration: BoxDecoration(
-          border: Border.all(color: notActiveElementColor),
+          border: Border.all(color: borderColor),
           borderRadius: BorderRadius.circular(20.0),
         ),
         child: InkWell(
@@ -21,7 +21,7 @@ class MyRoundedContainerWithIcon extends StatelessWidget {
             child: Icon(
               iconData, 
               size: 16,
-              color: borderAndIconColor,
+              color: iconColor,
             ),
           ),
         ),

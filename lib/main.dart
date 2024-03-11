@@ -60,7 +60,7 @@ class _MyAppState extends State<MyApp> {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20.0),
                     border:
-                        Border.all(color: notActiveElementColor, width: 2.0),
+                        Border.all(color: borderColor, width: 2.0),
                   ),
                   child: Center(
                     child: Text(
